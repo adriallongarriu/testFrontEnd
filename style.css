@@ -1,0 +1,96 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body{
+  	background-color: #D3D3D3;
+  min-width: 460px;
+}
+
+input[type=text]{
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  width: 100%; height: 40px;
+  line-height: 40px; font-size: 17px;
+  border: 1px solid #bbb;
+  
+}
+
+input[type=submit]{
+    margin: 5px;
+    background-color:#768d87;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+ 
+  }
+
+.info-bar {
+    background-color: #2F2F32;
+    color: white;
+    padding:20px;
+}
+
+.steps{
+  text-align: right;
+}
+
+.text-content{
+  color: grey;
+}
+
+.text{
+  padding:10px;
+}
+
+.title{
+  text-transform: uppercase;
+  font-size: large;
+}
+
+.img-content {
+  display: block;
+  max-width: 100%; 
+  height: auto; 
+}
+
+.ok{ 
+  height: 50px; 
+  width: 50px;
+  vertical-align:bottom;
+  display: none;
+}
+
+@media (max-width: 992px /* @screen-xs-max */) {
+  input[type=text] {
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  width: 60%; height: 40px;
+  line-height: 40px; font-size: 17px;
+  border: 1px solid #bbb;
+	}
+  }
+}
