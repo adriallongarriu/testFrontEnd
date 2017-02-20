@@ -38,23 +38,24 @@ $(document).ready(function() {
         $("#result").text("");
         var email = $("#email");
         var name = $("#name");
-        var result = false;
+        var resultEmail = false;
+        var resultName = false;
 
         if (validateEmail(email.val())) {
             email.css("border-color", "");
-            result = true;
+            resultEmail = true;
         } else {
             email.css("border-color", "red");
-            result = false;
+            resultEmail = false;
         }
         if (validateName(name.val())) {
             name.css("border-color", "");
-            result = true;
+            resultName = true;
         } else {
             name.css("border-color", "red");
-            result = false;
+            resultName = false;
         }
 
-        return result;
+        return resultEmail && resultName;
     }
 });
